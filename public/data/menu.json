@@ -1,0 +1,660 @@
+[
+  {
+    "id": 1,
+    "name": "McCombo Macaya",
+    "category": "McCombos",
+    "price": 20700,
+    "img": "/img/mc_combos/mc-combo-macaya.png"
+  },
+  {
+    "id": 2,
+    "name": "Copa Mundial de la FIFA BigMac",
+    "category": "McCombos",
+    "price": 17999,
+    "img": "/img/mc_combos/copa-mundial-fifa-big-mc.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "McCombo Mediano Copa Mundial de la FIFA McNuggets x10",
+    "category": "McCombos",
+    "price": 17999,
+    "img": "/img/mc_combos/copa-mundial-fifa-big-mc-nuggets-10.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "McAllister Doble",
+    "category": "McCombos",
+    "price": 20700,
+    "img": "/img/mc_combos/mc-allister-doble.png"
+  },
+  {
+    "id": 5,
+    "name": "McAlvarez Doble",
+    "category": "McCombos",
+    "price": 20700,
+    "img": "/img/mc_combos/mc-alvarez-doble.png"
+  },
+  {
+    "id": 6,
+    "name": "McAllister Simple",
+    "category": "McCombos",
+    "price": 19400,
+    "img": "/img/mc_combos/mc-allister-simple.png"
+  },
+  {
+    "id": 7,
+    "name": "McAlvarez Simple",
+    "category": "McCombos",
+    "price": 19400,
+    "img": "/img/mc_combos/mc-alvarez-simple.png"
+  },
+  {
+    "id": 8,
+    "name": "McFernández Pollo",
+    "category": "McCombos",
+    "price": 16400,
+    "img": "/img/mc_combos/mc-fernandez-pollo.png"
+  },
+  {
+    "id": 9,
+    "name": "Big Mac",
+    "category": "McCombos",
+    "price": 16300,
+    "img": "/img/mc_combos/big-mc.png"
+  },
+  {
+    "id": 10,
+    "name": "Tasty Feat Cuarto Doble",
+    "category": "McCombos",
+    "price": 21100,
+    "img": "/img/mc_combos/tasty-feat-cuarto-doble.png"
+  },
+  {
+    "id": 11,
+    "name": "Tasty Feat Cuarto Simple",
+    "category": "McCombos",
+    "price": 19800,
+    "img": "/img/mc_combos/tasty-feat-cuarto-simple.png"
+  },
+  {
+    "id": 12,
+    "name": "Grand Tasty Doble",
+    "category": "McCombos",
+    "price": 21300,
+    "img": "/img/mc_combos/grand-tasty-doble.png"
+  },
+  {
+    "id": 13,
+    "name": "Doble Cuarto De Libra Con Queso",
+    "category": "McCombos",
+    "price": 20000,
+    "img": "/img/mc_combos/doble-cuarto-de-libra-con-queso.png"
+  },
+  {
+    "id": 14,
+    "name": "Cuarto De Libra Con Queso",
+    "category": "McCombos",
+    "price": 17400,
+    "img": "/img/mc_combos/cuarto-de-libra-con-queso.png"
+  },
+  {
+    "id": 15,
+    "name": "McPollo",
+    "category": "McCombos",
+    "price": 9400,
+    "img": "/img/mc_combos/mc-chicken.jpeg"
+  },
+  {
+    "id": 16,
+    "name": "McNuggets x10",
+    "category": "McCombos",
+    "price": 16400,
+    "img": "/img/mc_combos/mc-nuggets-10.jpeg"
+  },
+  {
+    "id": 17,
+    "name": "McNuggets x20",
+    "category": "McCombos",
+    "price": 19700,
+    "img": "/img/mc_combos/mc-nuggets-20.jpeg"
+  },
+  {
+    "id": 18,
+    "name": "Triple Hamburguesa con Queso",
+    "category": "McCombos",
+    "price": 17500,
+    "img": "/img/mc_combos/triple-hamburguesa-con-queso.png"
+  },
+  {
+    "id": 19,
+    "name": "Grand Doble McBacon",
+    "category": "McCombos",
+    "price": 21400,
+    "img": "/img/mc_combos/grand-doble-mc-bacon.png"
+  },
+  {
+    "id": 20,
+    "name": "Grand Tasty Turbo Bacon Doble",
+    "category": "McCombos",
+    "price": 22400,
+    "img": "/img/mc_combos/grand-tasty-turbo-bacon-doble.png"
+  },
+  {
+    "id": 21,
+    "name": "McNífica",
+    "category": "McCombos",
+    "price": 17600,
+    "img": "/img/mc_combos/mcnifica.png"
+  },
+  {
+    "id": 22,
+    "name": "Grand Tasty Triple",
+    "category": "McCombos",
+    "price": 22800,
+    "img": "/img/mc_combos/grand-tasty-triple.png"
+  },
+  {
+    "id": 23,
+    "name": "Grand Triple McBacon",
+    "category": "McCombos",
+    "price": 23700,
+    "img": "/img/mc_combos/grand-triple-mcbacon.png"
+  },
+  {
+    "id": 24,
+    "name": "Grand Tasty Turbo Bacon Triple",
+    "category": "McCombos",
+    "price": 25200,
+    "img": "/img/mc_combos/grand-tasty-turbo-bacon-triple.png"
+  },
+  {
+    "id": 25,
+    "name": "McCrispy Chicken Deluxe",
+    "category": "McCombos",
+    "price": 15100,
+    "img": "/img/mc_combos/mccrispy-chicken-deluxe.png"
+  },
+  {
+    "id": 26,
+    "name": "Doble Cinco",
+    "category": "McCombos",
+    "price": 20700,
+    "img": "/img/mc_combos/doble-cinco.png"
+  },
+  {
+    "id": 27,
+    "name": "Macaya",
+    "category": "Burguers",
+    "price": 14300,
+    "img": "/img/burgers/macaya.png"
+  },
+  {
+    "id": 28,
+    "name": "McAllister Doble",
+    "category": "Burguers",
+    "price": 14300,
+    "img": "/img/burgers/mc-alister-doble.png"
+  },
+  {
+    "id": 29,
+    "name": "McAlvarez Doble",
+    "category": "Burguers",
+    "price": 14300,
+    "img": "/img/burgers/mc-alvarez-doble.png"
+  },
+  {
+    "id": 30,
+    "name": "McAllister Simple",
+    "category": "Burguers",
+    "price": 12500,
+    "img": "/img/burgers/mc-alister-simple.png"
+  },
+  {
+    "id": 31,
+    "name": "McAlvarez Simple",
+    "category": "Burguers",
+    "price": 12500,
+    "img": "/img/burgers/mc-alvarez-simple.png"
+  },
+  {
+    "id": 32,
+    "name": "Tasty Feat Cuarto Doble",
+    "category": "Burguers",
+    "price": 14800,
+    "img": "/img/burgers/tasty-feat-cuarto-doble.png"
+  },
+  {
+    "id": 33,
+    "name": "Tasty Feat Cuarto Simple",
+    "category": "Burguers",
+    "price": 12200,
+    "img": "/img/burgers/tasty-feat-cuarto-simple.png"
+  },
+  {
+    "id": 34,
+    "name": "Hamburguesa Con Queso",
+    "category": "Burguers",
+    "price": 6100,
+    "img": "/img/burgers/hamburguesa-con-queso.png"
+  },
+  {
+    "id": 35,
+    "name": "Big Mac",
+    "category": "Burguers",
+    "price": 8800,
+    "img": "/img/burgers/big-mc.png"
+  },
+  {
+    "id": 36,
+    "name": "Triple Hamburguesa con Queso",
+    "category": "Burguers",
+    "price": 12300,
+    "img": "/img/burgers/triple-hamburguesa-con-queso.png"
+  },
+  {
+    "id": 37,
+    "name": "Grand Tasty Doble",
+    "category": "Burguers",
+    "price": 14800,
+    "img": "/img/burgers/grand-tasty-doble.png"
+  },
+  {
+    "id": 38,
+    "name": "Doble Cuarto De Libra Con Queso",
+    "category": "Burguers",
+    "price": 14000,
+    "img": "/img/burgers/doble-cuarto-libra-con-queso.png"
+  },
+  {
+    "id": 39,
+    "name": "Cuarto De Libra Con Queso",
+    "category": "Burguers",
+    "price": 12200,
+    "img": "/img/burgers/cuarto-libra-con-queso.png"
+  },
+  {
+    "id": 40,
+    "name": "Grand Tasty Turbo Bacon Triple",
+    "category": "Burguers",
+    "price": 17600,
+    "img": "/img/burgers/grand-tasty-turbo-bacon-triple.png"
+  },
+  {
+    "id": 41,
+    "name": "Grand Tasty Triple",
+    "category": "Burguers",
+    "price": 16000,
+    "img": "/img/burgers/grand-tasty-triple.png"
+  },
+  {
+    "id": 42,
+    "name": "Grand Triple McBacon",
+    "category": "Burguers",
+    "price": 16700,
+    "img": "/img/burgers/grand-triple-mc-bacon.png"
+  },
+  {
+    "id": 43,
+    "name": "Grand Tasty Turbo Bacon Doble",
+    "category": "Burguers",
+    "price": 15800,
+    "img": "/img/burgers/grand-tasty-turbo-bacon-doble.png"
+  },
+  {
+    "id": 44,
+    "name": "Grand Doble McBacon",
+    "category": "Burguers",
+    "price": 14800,
+    "img": "/img/burgers/grand-doble-mc-bacon.png"
+  },
+  {
+    "id": 45,
+    "name": "McNífica",
+    "category": "Burguers",
+    "price": 12400,
+    "img": "/img/burgers/mc-nifica.png"
+  },
+  {
+    "id": 46,
+    "name": "Cajita Feliz- Hamburguesa con Queso",
+    "category": "Happy Meal",
+    "price": 13600,
+    "img": "/img/happy_meal/cajita-feliz-hamburguesa-con-queso.jpeg"
+  },
+  {
+    "id": 47,
+    "name": "Cajita Feliz Tostado Lomito y Queso",
+    "category": "Happy Meal",
+    "price": 12600,
+    "img": "/img/happy_meal/cajita-feliz-tostado-lomito-y-queso.jpeg"
+  },
+  {
+    "id": 48,
+    "name": "Cajita Feliz - Hamburguesa",
+    "category": "Happy Meal",
+    "price": 13300,
+    "img": "/img/happy_meal/cajita-feliz-hamburguesa-sin-queso.jpeg"
+  },
+  {
+    "id": 49,
+    "name": "Cajita Feliz - McFiesta Jr",
+    "category": "Happy Meal",
+    "price": 13300,
+    "img": "/img/happy_meal/cajita-feliz-mcfiesta-jr.jpeg"
+  },
+  {
+    "id": 50,
+    "name": "Cajita Feliz - McNuggets x4",
+    "category": "Happy Meal",
+    "price": 13600,
+    "img": "/img/happy_meal/cajita-feliz-nuggets-4.jpeg"
+  },
+  {
+    "id": 51,
+    "name": "Cajita Feliz McNuggets x 6",
+    "category": "Happy Meal",
+    "price": 14300,
+    "img": "/img/happy_meal/cajita-feliz-nuggets-6.jpeg"
+  },
+  {
+    "id": 52,
+    "name": "McFernández",
+    "category": "Chicken & McNuggets",
+    "price": 11400,
+    "img": "/img/chicken/mc-fernandez.png"
+  },
+  {
+    "id": 53,
+    "name": "McNuggets x20",
+    "category": "Chicken & McNuggets",
+    "price": 14400,
+    "img": "/img/chicken/nuggets-20.png"
+  },
+  {
+    "id": 54,
+    "name": "McNuggets x10",
+    "category": "Chicken & McNuggets",
+    "price": 11800,
+    "img": "/img/chicken/nuggets-10.png"
+  },
+  {
+    "id": 55,
+    "name": "Nuggets x6",
+    "category": "Chicken & McNuggets",
+    "price": 7500,
+    "img": "/img/chicken/nuggets-6.png"
+  },
+  {
+    "id": 56,
+    "name": "McNuggets x4",
+    "category": "Chicken & McNuggets",
+    "price": 6100,
+    "img": "/img/chicken/nuggets-4.png"
+  },
+  {
+    "id": 57,
+    "name": "McPollo",
+    "category": "Chicken & McNuggets",
+    "price": 6700,
+    "img": "/img/chicken/mc-chicken.png"
+  },
+  {
+    "id": 58,
+    "name": "McCrispy Chicken Deluxe",
+    "category": "Chicken & McNuggets",
+    "price": 10200,
+    "img": "/img/chicken/mc-crispy-chicken-deluxe.png"
+  },
+  {
+    "id": 59,
+    "name": "Papas Fritas Grandes",
+    "category": " McNuggets",
+    "price": 4800,
+    "img": "/img/fries_sides/papas-grandes.png"
+  },
+  {
+    "id": 60,
+    "name": "Papas Fritas Medianas",
+    "category": "Fries & Sides",
+    "price": 4400,
+    "img": "/img/fries_sides/papas-medianas.png"
+  },
+  {
+    "id": 61,
+    "name": "Papas Fritas Pequeñas",
+    "category": "Fries & Sides",
+    "price": 4200,
+    "img": "/img/fries_sides/papas-pequenas.png"
+  },
+  {
+    "id": 62,
+    "name": "Pileta de Cheddar",
+    "category": "Fries & Sides",
+    "price": 4200,
+    "img": "/img/fries_sides/pileta-cheddar.png"
+  },
+  {
+    "id": 63,
+    "name": "Papas Con Cheddar y Bacon",
+    "category": "Fries & Sides",
+    "price": 6100,
+    "img": "/img/fries_sides/papas-cheddar-bacon.png"
+  },
+  {
+    "id": 64,
+    "name": "Papas con Cheddar",
+    "category": "Fries & Sides",
+    "price": 5400,
+    "img": "/img/fries_sides/papas-cheddar.png"
+  },
+  {
+    "id": 65,
+    "name": "Papas Tasty y Bacon",
+    "category": "Fries & Sides",
+    "price": 6100,
+    "img": "/img/fries_sides/papas-tasty-bacon.png"
+  },
+  {
+    "id": 66,
+    "name": "Papas Tasty",
+    "category": "Fries & Sides",
+    "price": 5400,
+    "img": "/img/fries_sides/papas-tasty.png"
+  },
+  {
+    "id": 67,
+    "name": "Side Salad",
+    "category": "Fries & Sides",
+    "price": 3400,
+    "img": "/img/fries_sides/side-salad.png"
+  },
+  {
+    "id": 68,
+    "name": "McShake Chocolate",
+    "category": "McShakes",
+    "price": 5000,
+    "img": "/img/mc_shakes/milkshake-chocolate.png"
+  },
+  {
+    "id": 69,
+    "name": "McShake Frutilla",
+    "category": "McShakes",
+    "price": 5000,
+    "img": "/img/mc_shakes/milkshake-frutilla.png"
+  },
+  {
+    "id": 70,
+    "name": "McShake Dulce de leche",
+    "category": "McShakes",
+    "price": 5000,
+    "img": "/img/mc_shakes/milkshake-dulce-de-leche.png"
+  },
+  {
+    "id": 71,
+    "name": "McShake Oreo",
+    "category": "McShakes",
+    "price": 5000,
+    "img": "/img/mc_shakes/milkshake-oreo.png"
+  },
+  {
+    "id": 72,
+    "name": "Sundae Apple Pie",
+    "category": "Desserts",
+    "price": 8200,
+    "img": "/img/desserts/sundae-apple-pie.png"
+  },
+  {
+    "id": 73,
+    "name": "Apple Pie",
+    "category": "Desserts",
+    "price": 6000,
+    "img": "/img/desserts/apple-pie.png"
+  },
+  {
+    "id": 74,
+    "name": "McFlurry m&m's",
+    "category": "Desserts",
+    "price": 5500,
+    "img": "/img/desserts/mc-flurry-mym.png"
+  },
+  {
+    "id": 75,
+    "name": "McFlurry Oreo",
+    "category": "Desserts",
+    "price": 4300,
+    "img": "/img/desserts/mc-flurry-oreo.png"
+  },
+  {
+    "id": 76,
+    "name": "McFlurry KitKat",
+    "category": "Desserts",
+    "price": 4300,
+    "img": "/img/desserts/mc-flurry-kit-kat.png"
+  },
+  {
+    "id": 77,
+    "name": "Cono Combinado",
+    "category": "Desserts",
+    "price": 1299,
+    "img": "/img/desserts/cono-combinado.png"
+  },
+  {
+    "id": 78,
+    "name": "Cono de Vainilla",
+    "category": "Desserts",
+    "price": 1299,
+    "img": "/img/desserts/cono-vainilla.png"
+  },
+  {
+    "id": 79,
+    "name": "Cono de Dulce de Leche",
+    "category": "Desserts",
+    "price": 1299,
+    "img": "/img/desserts/cono-dulce-de-leche.png"
+  },
+  {
+    "id": 80,
+    "name": "Cono Oreo",
+    "category": "Desserts",
+    "price": 1800,
+    "img": "/img/desserts/cono-oreo.png"
+  },
+  {
+    "id": 81,
+    "name": "Sundae de Chocolate",
+    "category": "Desserts",
+    "price": 3300,
+    "img": "/img/desserts/sundae-chocolate.png"
+  },
+  {
+    "id": 82,
+    "name": "Sundae Dulce de Leche",
+    "category": "Desserts",
+    "price": 3300,
+    "img": "/img/desserts/sundae-dulce-de-leche.png"
+  },
+  {
+    "id": 83,
+    "name": "Sundae de Frutilla",
+    "category": "Desserts",
+    "price": 3300,
+    "img": "/img/desserts/sundae-frutilla.png"
+  },
+  {
+    "id": 84,
+    "name": "Super Cono",
+    "category": "Desserts",
+    "price": 1700,
+    "img": "/img/desserts/super-cono.png"
+  },
+  {
+    "id": 85,
+    "name": "Cono Relleno",
+    "category": "Desserts",
+    "price": 1800,
+    "img": "/img/desserts/cono-relleno.png"
+  },
+  {
+    "id": 86,
+    "name": "Cono KitKat",
+    "category": "Desserts",
+    "price": 2000,
+    "img": "/img/desserts/cono-kit-kat.png"
+  },
+  {
+    "id": 87,
+    "name": "Ensalada Caesar",
+    "category": "Salads",
+    "price": 12600,
+    "img": "/img/salads/ensalada-cesar-con-pollo-crispy.png"
+  },
+  {
+    "id": 88,
+    "name": "Coca-Cola",
+    "category": "Drinks",
+    "price": 3900,
+    "img": "/img/drinks/coca-cola.png"
+  },
+  {
+    "id": 89,
+    "name": "Coca-Cola Zero",
+    "category": "Drinks",
+    "price": 3900,
+    "img": "/img/drinks/coca-cola.png"
+  },
+  {
+    "id": 90,
+    "name": "Sprite",
+    "category": "Drinks",
+    "price": 3900,
+    "img": "/img/drinks/sprite.png"
+  },
+  {
+    "id": 91,
+    "name": "Agua",
+    "category": "Drinks",
+    "price": 4200,
+    "img": "/img/drinks/agua-sin-gas-500ml.png"
+  },
+  {
+    "id": 92,
+    "name": "Jugo de Naranja Cepita",
+    "category": "Drinks",
+    "price": 2600,
+    "img": "/img/drinks/jugo-naranja-cepita.png"
+  },
+  {
+    "id": 93,
+    "name": "Jugo De Manzana",
+    "category": "Drinks",
+    "price": 2800,
+    "img": "/img/drinks/jugo-de-manzana.png"
+  },
+  {
+    "id": 94,
+    "name": "Fanta",
+    "category": "Drinks",
+    "price": 3900,
+    "img": "/img/drinks/fanta.png"
+  }
+]
