@@ -6,13 +6,24 @@ import { useContext } from "react";
 import { Context } from "../context/Context";
 
 const MainLayout = () => {
-  const { cart, products, addProducts, deleteProducts } = useContext(Context);
+  const {
+    cart,
+    products,
+    addProducts,
+    increaseQuantity,
+    decrementQuantity,
+    deleteProducts,
+    emptyCart,
+  } = useContext(Context);
 
   return (
     <>
       <Header
         cart={cart}
         deleteProducts={deleteProducts}
+        increaseQuantity={increaseQuantity}
+        decrementQuantity={decrementQuantity}
+        emptyCart={emptyCart}
       />
       <Nav />
       <ProductSection
@@ -24,6 +35,12 @@ const MainLayout = () => {
       <ProductSection
         title="Para acompañar"
         category="fries & sides"
+        addProducts={addProducts}
+        products={products}
+      />
+      <ProductSection
+        title="Postres"
+        category="desserts"
         addProducts={addProducts}
         products={products}
       />

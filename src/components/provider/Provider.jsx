@@ -6,10 +6,27 @@ import { useCart } from "../../hooks/useCart";
 
 const Provider = ({ children }) => {
   const { products } = usePromise(() => getProducts(data));
-  const { cart, addProducts, deleteProducts } = useCart();
+  const {
+    cart,
+    addProducts,
+    increaseQuantity,
+    decrementQuantity,
+    deleteProducts,
+    emptyCart,
+  } = useCart();
 
   return (
-    <Context.Provider value={{ products, cart, addProducts, deleteProducts }}>
+    <Context.Provider
+      value={{
+        products,
+        cart,
+        addProducts,
+        increaseQuantity,
+        decrementQuantity,
+        deleteProducts,
+        emptyCart,
+      }}
+    >
       {children}
     </Context.Provider>
   );

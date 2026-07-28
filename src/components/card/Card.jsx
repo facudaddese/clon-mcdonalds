@@ -3,7 +3,7 @@ const Card = ({ item, addProducts }) => {
 
   return (
     <div data-aos="fade-right" className="flex justify-center">
-      <div className="shadow-[0px_7px_10px_1px_rgba(0,0,0,.2)] h-95 w-52 flex flex-col rounded-[30px] bg-gray-50">
+      <div className="shadow-[0px_7px_10px_1px_rgba(0,0,0,.2)] h-95 w-52 flex flex-col rounded-[15px] bg-gray-50">
         <div className="self-center w-full rounded-t-[30px] p-1 bg-white">
           <img src={img} alt={name} className="w-full px-1" />
         </div>

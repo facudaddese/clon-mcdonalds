@@ -5,6 +5,7 @@ import App from "./App.jsx";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { BrowserRouter } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
 
 AOS.init({
   duration: 800,
@@ -14,6 +15,7 @@ AOS.init({
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
+      <Toaster position="top-center" />
       <App />
     </BrowserRouter>
   </StrictMode>,
