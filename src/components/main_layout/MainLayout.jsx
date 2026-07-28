@@ -1,16 +1,33 @@
 import Nav from "../nav/Nav";
 import Header from "../header/Header";
-import McCombos from "../mc_combos/McCombos";
-import FriesSides from "../fries_sides/FriesSides";
-// import Footer from "../footer/Footer";
+import Footer from "../footer/Footer";
+import ProductSection from "../product_section/ProductSection";
+import { useContext } from "react";
+import { Context } from "../context/Context";
 
 const MainLayout = () => {
+  const { cart, products, addProducts, deleteProducts } = useContext(Context);
+
   return (
     <>
-      <Header />
+      <Header
+        cart={cart}
+        deleteProducts={deleteProducts}
+      />
       <Nav />
-      <McCombos />
-      <FriesSides />
+      <ProductSection
+        title="McCombos"
+        category="mccombos"
+        addProducts={addProducts}
+        products={products}
+      />
+      <ProductSection
+        title="Para acompañar"
+        category="fries & sides"
+        addProducts={addProducts}
+        products={products}
+      />
+      <Footer />
     </>
   );
 };

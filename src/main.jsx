@@ -8,7 +8,7 @@ import { BrowserRouter } from "react-router-dom";
 
 AOS.init({
   duration: 800,
-  once: true,
+  once: false,
 });
 
 createRoot(document.getElementById("root")).render(
