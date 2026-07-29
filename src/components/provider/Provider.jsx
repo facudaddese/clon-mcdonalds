@@ -1,11 +1,11 @@
 import { usePromise } from "../../hooks/usePromise";
 import { getProducts } from "../../service/getProducts";
 import { Context } from "../context/Context";
-import data from "/public/data/menu.json";
+import data from "../../data/menu.json";
 import { useCart } from "../../hooks/useCart";
 
 const Provider = ({ children }) => {
-  const { products } = usePromise(() => getProducts(data));
+  const { products, loading } = usePromise(() => getProducts(data));
   const {
     cart,
     addProducts,
@@ -19,6 +19,7 @@ const Provider = ({ children }) => {
     <Context.Provider
       value={{
         products,
+        loading,
         cart,
         addProducts,
         increaseQuantity,

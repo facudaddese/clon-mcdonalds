@@ -23,7 +23,7 @@ const categories = [
 
 const Navbar = () => {
   return (
-    <ul className="flex flex-wrap justify-center gap-10 py-3">
+    <ul className="grid py-1.5 grid-nav">
       {categories.map((item) => (
         <li
           key={item.url}
@@ -36,7 +36,7 @@ const Navbar = () => {
               width={50}
               className="rounded-[50px]"
             />
-            <span className="text-center pt-0.5 text-[14px] max-w-25">
+            <span className="text-(length:--text-nav-item) text-center pt-0.5 max-w-25">
               {item.name}
             </span>
           </Link>

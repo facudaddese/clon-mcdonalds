@@ -8,13 +8,13 @@ const Card = ({ item, addProducts }) => {
           <img src={img} alt={name} className="w-full px-1" />
         </div>
         <div className="flex flex-col justify-center h-full mx-5 gap-2 font-bold">
-          <h3>{name}</h3>
-          <h4>$ {price.toLocaleString("es-AR")}</h4>
+          <h3 className="text-(length:--text-product-name) font-medium">{name}</h3>
+          <strong className="text-(length:--text-price)">$ {price.toLocaleString("es-AR")}</strong>
         </div>
         <div className="flex justify-center items-end p-3 ">
           <button
             onClick={() => addProducts(item)}
-            className="border border-amber-500 rounded-[50px] p-1.5 bg-yellow-400 cursor-pointer hover:bg-yellow-300"
+            className="text-(length:--text-button) font-semibold border border-amber-500 rounded-[50px] p-1.5 bg-yellow-400 cursor-pointer hover:bg-yellow-300"
           >
             Agregar al carrito
           </button>

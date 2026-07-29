@@ -51,7 +51,7 @@ const Header = ({
           </div>
         </div>
       </div>
-      <h1 className="text-[60px] ml-10 pt-30 text-amber-50 font-bold">
+      <h1 className="text-(length:--text-hero) ml-10 pt-30 text-yellow-400 font-extrabold">
         Elige tu combo del día
       </h1>
     </header>

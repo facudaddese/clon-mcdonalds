@@ -9,6 +9,7 @@ const MainLayout = () => {
   const {
     cart,
     products,
+    loading,
     addProducts,
     increaseQuantity,
     decrementQuantity,
@@ -26,24 +27,31 @@ const MainLayout = () => {
         emptyCart={emptyCart}
       />
       <Nav />
-      <ProductSection
-        title="McCombos"
-        category="mccombos"
-        addProducts={addProducts}
-        products={products}
-      />
-      <ProductSection
-        title="Para acompañar"
-        category="fries & sides"
-        addProducts={addProducts}
-        products={products}
-      />
-      <ProductSection
-        title="Postres"
-        category="desserts"
-        addProducts={addProducts}
-        products={products}
-      />
+      {loading ? (
+        "Cargando"
+      ) : (
+        <>
+          <ProductSection
+            title="McCombos"
+            category="mccombos"
+            addProducts={addProducts}
+            products={products}
+            loading={loading}
+          />
+          <ProductSection
+            title="Para acompañar"
+            category="fries & sides"
+            addProducts={addProducts}
+            products={products}
+          />
+          <ProductSection
+            title="Postres"
+            category="desserts"
+            addProducts={addProducts}
+            products={products}
+          />
+        </>
+      )}
       <Footer />
     </>
   );

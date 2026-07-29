@@ -36,7 +36,7 @@ const Cart = ({
           </span>
         </div>
         <h3
-          className={`font-bold text-center uppercase ${isEmpty() && "px-1"}`}
+          className={`self-center font-semibold uppercase ${isEmpty() && "px-1"}`}
         >
           {!isEmpty() ? "Mi pedido" : "Carrito vacío"}
         </h3>
@@ -50,7 +50,7 @@ const Cart = ({
             <div className="flex gap-4 items-center">
               <img src={item.img} alt={item.name} width={95} />
               <div className="flex flex-col gap-4">
-                <h3>{item.name}</h3>
+                <h3 className="text-(length:--text-product-name)">{item.name}</h3>
                 <div className="flex justify-between items-center gap-4 bg-yellow-400 border border-amber-500 w-22 h-7 rounded-[30px]">
                   <button
                     className="pl-2 cursor-pointer rounded-l-[30px] hover:font-extrabold hover:bg-yellow-300 text-[17px]"
@@ -75,23 +75,23 @@ const Cart = ({
               >
                 delete
               </span>
-              <strong>${item.price.toLocaleString("es-AR")}</strong>
+              <strong className="text-(length:--text-price)">${item.price.toLocaleString("es-AR")}</strong>
             </div>
           </div>
         ))}
       </div>
       {!isEmpty() && (
         <>
-          <div className="flex justify-between pt-4 px-2 bg-gray-100">
-            <h4 className="uppercase font-bold pb-2">Total</h4>
-            <strong>
+          <div className="flex justify-between items-center py-2 px-2 bg-gray-100">
+            <h4 className="uppercase font-semibold">Total</h4>
+            <strong className="text-(length:--text-total)">
               ${" "}
               {cart
                 .reduce((total, item) => total + item.price * item.quantity, 0)
                 .toLocaleString("es-AR")}
             </strong>
           </div>
-          <button className="w-full border border-amber-500 rounded-[20px] p-1.5 bg-yellow-400 cursor-pointer hover:bg-yellow-300">
+          <button className="text-(length:--text-button) font-semibold w-full border border-amber-500 rounded-[20px] p-1.5 bg-yellow-400 cursor-pointer hover:bg-yellow-300">
             Finalizar compra
           </button>
         </>
