@@ -4,6 +4,7 @@ import Footer from "../footer/Footer";
 import ProductSection from "../product_section/ProductSection";
 import { useContext } from "react";
 import { Context } from "../context/Context";
+import { BarLoader } from "react-spinners";
 
 const MainLayout = () => {
   const {
@@ -28,7 +29,9 @@ const MainLayout = () => {
       />
       <Nav />
       {loading ? (
-        "Cargando"
+        <div className="flex justify-center items-center h-100">
+          <BarLoader color="#FFC72C" width={250} />
+        </div>
       ) : (
         <main>
           <ProductSection

@@ -2,6 +2,6 @@ export const getProducts = (data) => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(data);
-    }, 1500);
+    }, 2500);
   });
 };
