@@ -1,0 +1,9 @@
+@media (max-width: 700px) {
+  .grid-products > div:first-child {
+    justify-content: space-between;
+  }
+
+  .grid-products .material-symbols-outlined {
+    margin-right: 40px;
+  }
+}
