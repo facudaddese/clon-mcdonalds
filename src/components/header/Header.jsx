@@ -19,10 +19,10 @@ const Header = ({
   };
 
   return (
-    <header className="h-100 header">
+    <header className="header">
       <div className="flex items-center justify-between">
         <Link to={"/"}>
-          <img src={mcLogo} alt="Mc logo" width={80} className="ml-10 pt-10" />
+          <img src={mcLogo} alt="Mc logo" width={90} className="ml-10 pt-10" />
         </Link>
         <div>
           <div className="flex mr-10">
@@ -51,7 +51,7 @@ const Header = ({
           </div>
         </div>
       </div>
-      <h1 className="text-(length:--text-hero) ml-10 pt-30 text-yellow-400 font-extrabold">
+      <h1 className="text-(length:--text-hero) ml-10 pt-30 pb-15 text-yellow-400 font-extrabold">
         Elige tu combo del día
       </h1>
     </header>

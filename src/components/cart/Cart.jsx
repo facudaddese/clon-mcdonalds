@@ -91,7 +91,7 @@ const Cart = ({
                 .toLocaleString("es-AR")}
             </strong>
           </div>
-          <button className="text-(length:--text-button) font-semibold w-full border border-amber-500 rounded-[20px] p-1.5 bg-yellow-400 cursor-pointer hover:bg-yellow-300">
+          <button className="text-(length:--text-button) font-semibold w-full border border-amber-500 rounded-[15px] p-1.5 bg-yellow-400 cursor-pointer hover:bg-yellow-300">
             Finalizar compra
           </button>
         </>

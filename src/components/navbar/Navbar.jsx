@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { productsIcons } from "../../assets/productsIcons";
+import './Navbar.css'
 
 const categories = [
   { img: productsIcons.mc_combo, name: "McCombos", url: "/mccombos" },

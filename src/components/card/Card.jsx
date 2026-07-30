@@ -14,7 +14,7 @@ const Card = ({ item, addProducts }) => {
         <div className="flex justify-center items-end p-3 ">
           <button
             onClick={() => addProducts(item)}
-            className="text-(length:--text-button) font-semibold border border-amber-500 rounded-[50px] p-1.5 bg-yellow-400 cursor-pointer hover:bg-yellow-300"
+            className="text-(length:--text-button) font-semibold border border-amber-500 rounded-[15px] p-1.5 bg-yellow-400 cursor-pointer hover:bg-yellow-300"
           >
             Agregar al carrito
           </button>

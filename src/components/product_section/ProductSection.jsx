@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Card from "../card/Card";
+import './ProductSection.css'
 
 const ProductSection = ({
   title,
@@ -8,7 +9,7 @@ const ProductSection = ({
   products,
 }) => {
   return (
-    <section className="grid py-4 grid-products">
+    <section className="grid py-5 grid-products">
       <div className="flex items-center gap-3 ml-10 py-10 font-bold [grid-area:title]">
         <h2 className="text-(length:--text-title) font-extrabold text-yel">{title}</h2>
         <Link className="flex">

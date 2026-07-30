@@ -30,7 +30,7 @@ const MainLayout = () => {
       {loading ? (
         "Cargando"
       ) : (
-        <>
+        <main>
           <ProductSection
             title="McCombos"
             category="mccombos"
@@ -50,7 +50,7 @@ const MainLayout = () => {
             addProducts={addProducts}
             products={products}
           />
-        </>
+        </main>
       )}
       <Footer />
     </>
