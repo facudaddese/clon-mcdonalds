@@ -37,7 +37,7 @@ const Header = ({
               {cart.length > 0 && cart.length}
             </strong>
           </div>
-          <div>
+          <div className="pt-2">
             <Cart
               cart={cart}
               activeCart={activeCart}

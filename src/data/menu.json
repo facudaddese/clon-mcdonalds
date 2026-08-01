@@ -184,287 +184,287 @@
   {
     "id": 27,
     "name": "Macaya",
-    "category": "Burguers",
+    "category": "Hamburguesas",
     "price": 14300,
     "img": "/img/burgers/macaya.png"
   },
   {
     "id": 28,
     "name": "McAllister Doble",
-    "category": "Burguers",
+    "category": "Hamburguesas",
     "price": 14300,
     "img": "/img/burgers/mc-alister-doble.png"
   },
   {
     "id": 29,
     "name": "McAlvarez Doble",
-    "category": "Burguers",
+    "category": "Hamburguesas",
     "price": 14300,
     "img": "/img/burgers/mc-alvarez-doble.png"
   },
   {
     "id": 30,
     "name": "McAllister Simple",
-    "category": "Burguers",
+    "category": "Hamburguesas",
     "price": 12500,
     "img": "/img/burgers/mc-alister-simple.png"
   },
   {
     "id": 31,
     "name": "McAlvarez Simple",
-    "category": "Burguers",
+    "category": "Hamburguesas",
     "price": 12500,
     "img": "/img/burgers/mc-alvarez-simple.png"
   },
   {
     "id": 32,
     "name": "Tasty Feat Cuarto Doble",
-    "category": "Burguers",
+    "category": "Hamburguesas",
     "price": 14800,
     "img": "/img/burgers/tasty-feat-cuarto-doble.png"
   },
   {
     "id": 33,
     "name": "Tasty Feat Cuarto Simple",
-    "category": "Burguers",
+    "category": "Hamburguesas",
     "price": 12200,
     "img": "/img/burgers/tasty-feat-cuarto-simple.png"
   },
   {
     "id": 34,
     "name": "Hamburguesa Con Queso",
-    "category": "Burguers",
+    "category": "Hamburguesas",
     "price": 6100,
     "img": "/img/burgers/hamburguesa-con-queso.png"
   },
   {
     "id": 35,
     "name": "Big Mac",
-    "category": "Burguers",
+    "category": "Hamburguesas",
     "price": 8800,
     "img": "/img/burgers/big-mc.png"
   },
   {
     "id": 36,
     "name": "Triple Hamburguesa con Queso",
-    "category": "Burguers",
+    "category": "Hamburguesas",
     "price": 12300,
     "img": "/img/burgers/triple-hamburguesa-con-queso.png"
   },
   {
     "id": 37,
     "name": "Grand Tasty Doble",
-    "category": "Burguers",
+    "category": "Hamburguesas",
     "price": 14800,
     "img": "/img/burgers/grand-tasty-doble.png"
   },
   {
     "id": 38,
     "name": "Doble Cuarto De Libra Con Queso",
-    "category": "Burguers",
+    "category": "Hamburguesas",
     "price": 14000,
     "img": "/img/burgers/doble-cuarto-libra-con-queso.png"
   },
   {
     "id": 39,
     "name": "Cuarto De Libra Con Queso",
-    "category": "Burguers",
+    "category": "Hamburguesas",
     "price": 12200,
     "img": "/img/burgers/cuarto-libra-con-queso.png"
   },
   {
     "id": 40,
     "name": "Grand Tasty Turbo Bacon Triple",
-    "category": "Burguers",
+    "category": "Hamburguesas",
     "price": 17600,
     "img": "/img/burgers/grand-tasty-turbo-bacon-triple.png"
   },
   {
     "id": 41,
     "name": "Grand Tasty Triple",
-    "category": "Burguers",
+    "category": "Hamburguesas",
     "price": 16000,
     "img": "/img/burgers/grand-tasty-triple.png"
   },
   {
     "id": 42,
     "name": "Grand Triple McBacon",
-    "category": "Burguers",
+    "category": "Hamburguesas",
     "price": 16700,
     "img": "/img/burgers/grand-triple-mc-bacon.png"
   },
   {
     "id": 43,
     "name": "Grand Tasty Turbo Bacon Doble",
-    "category": "Burguers",
+    "category": "Hamburguesas",
     "price": 15800,
     "img": "/img/burgers/grand-tasty-turbo-bacon-doble.png"
   },
   {
     "id": 44,
     "name": "Grand Doble McBacon",
-    "category": "Burguers",
+    "category": "Hamburguesas",
     "price": 14800,
     "img": "/img/burgers/grand-doble-mc-bacon.png"
   },
   {
     "id": 45,
     "name": "McNífica",
-    "category": "Burguers",
+    "category": "Hamburguesas",
     "price": 12400,
     "img": "/img/burgers/mc-nifica.png"
   },
   {
     "id": 46,
     "name": "Cajita Feliz- Hamburguesa con Queso",
-    "category": "Happy Meal",
+    "category": "cajita-feliz",
     "price": 13600,
     "img": "/img/happy_meal/cajita-feliz-hamburguesa-con-queso.jpeg"
   },
   {
     "id": 47,
     "name": "Cajita Feliz Tostado Lomito y Queso",
-    "category": "Happy Meal",
+    "category": "cajita-feliz",
     "price": 12600,
     "img": "/img/happy_meal/cajita-feliz-tostado-lomito-y-queso.jpeg"
   },
   {
     "id": 48,
     "name": "Cajita Feliz - Hamburguesa",
-    "category": "Happy Meal",
+    "category": "cajita-feliz",
     "price": 13300,
     "img": "/img/happy_meal/cajita-feliz-hamburguesa-sin-queso.jpeg"
   },
   {
     "id": 49,
     "name": "Cajita Feliz - McFiesta Jr",
-    "category": "Happy Meal",
+    "category": "cajita-feliz",
     "price": 13300,
     "img": "/img/happy_meal/cajita-feliz-mcfiesta-jr.jpeg"
   },
   {
     "id": 50,
     "name": "Cajita Feliz - McNuggets x4",
-    "category": "Happy Meal",
+    "category": "cajita-feliz",
     "price": 13600,
     "img": "/img/happy_meal/cajita-feliz-nuggets-4.jpeg"
   },
   {
     "id": 51,
     "name": "Cajita Feliz McNuggets x 6",
-    "category": "Happy Meal",
+    "category": "cajita-feliz",
     "price": 14300,
     "img": "/img/happy_meal/cajita-feliz-nuggets-6.jpeg"
   },
   {
     "id": 52,
     "name": "McFernández",
-    "category": "Chicken & McNuggets",
+    "category": "pollo-y-mcnuggets",
     "price": 11400,
     "img": "/img/chicken/mc-fernandez.png"
   },
   {
     "id": 53,
     "name": "McNuggets x20",
-    "category": "Chicken & McNuggets",
+    "category": "pollo-y-mcnuggets",
     "price": 14400,
     "img": "/img/chicken/nuggets-20.png"
   },
   {
     "id": 54,
     "name": "McNuggets x10",
-    "category": "Chicken & McNuggets",
+    "category": "pollo-y-mcnuggets",
     "price": 11800,
     "img": "/img/chicken/nuggets-10.png"
   },
   {
     "id": 55,
     "name": "Nuggets x6",
-    "category": "Chicken & McNuggets",
+    "category": "pollo-y-mcnuggets",
     "price": 7500,
     "img": "/img/chicken/nuggets-6.png"
   },
   {
     "id": 56,
     "name": "McNuggets x4",
-    "category": "Chicken & McNuggets",
+    "category": "pollo-y-mcnuggets",
     "price": 6100,
     "img": "/img/chicken/nuggets-4.png"
   },
   {
     "id": 57,
     "name": "McPollo",
-    "category": "Chicken & McNuggets",
+    "category": "pollo-y-mcnuggets",
     "price": 6700,
     "img": "/img/chicken/mc-chicken.png"
   },
   {
     "id": 58,
     "name": "McCrispy Chicken Deluxe",
-    "category": "Chicken & McNuggets",
+    "category": "pollo-y-mcnuggets",
     "price": 10200,
     "img": "/img/chicken/mc-crispy-chicken-deluxe.png"
   },
   {
     "id": 59,
     "name": "Papas Fritas Grandes",
-    "category": " McNuggets",
+    "category": "para-acompanar",
     "price": 4800,
     "img": "/img/fries_sides/papas-grandes.png"
   },
   {
     "id": 60,
     "name": "Papas Fritas Medianas",
-    "category": "Fries & Sides",
+    "category": "para-acompanar",
     "price": 4400,
     "img": "/img/fries_sides/papas-medianas.png"
   },
   {
     "id": 61,
     "name": "Papas Fritas Pequeñas",
-    "category": "Fries & Sides",
+    "category": "para-acompanar",
     "price": 4200,
     "img": "/img/fries_sides/papas-pequenas.png"
   },
   {
     "id": 62,
     "name": "Pileta de Cheddar",
-    "category": "Fries & Sides",
+    "category": "para-acompanar",
     "price": 4200,
     "img": "/img/fries_sides/pileta-cheddar.png"
   },
   {
     "id": 63,
     "name": "Papas Con Cheddar y Bacon",
-    "category": "Fries & Sides",
+    "category": "para-acompanar",
     "price": 6100,
     "img": "/img/fries_sides/papas-cheddar-bacon.png"
   },
   {
     "id": 64,
     "name": "Papas con Cheddar",
-    "category": "Fries & Sides",
+    "category": "para-acompanar",
     "price": 5400,
     "img": "/img/fries_sides/papas-cheddar.png"
   },
   {
     "id": 65,
     "name": "Papas Tasty y Bacon",
-    "category": "Fries & Sides",
+    "category": "para-acompanar",
     "price": 6100,
     "img": "/img/fries_sides/papas-tasty-bacon.png"
   },
   {
     "id": 66,
     "name": "Papas Tasty",
-    "category": "Fries & Sides",
+    "category": "para-acompanar",
     "price": 5400,
     "img": "/img/fries_sides/papas-tasty.png"
   },
   {
     "id": 67,
     "name": "Side Salad",
-    "category": "Fries & Sides",
+    "category": "para-acompanar",
     "price": 3400,
     "img": "/img/fries_sides/side-salad.png"
   },
@@ -498,155 +498,155 @@
   },
   {
     "id": 72,
-    "name": "Sundae Apple Pie",
-    "category": "Desserts",
-    "price": 8200,
-    "img": "/img/desserts/sundae-apple-pie.png"
+    "name": "Sundae Dulce de Leche",
+    "category": "Postres",
+    "price": 3300,
+    "img": "/img/desserts/sundae-dulce-de-leche.png"
   },
   {
     "id": 73,
     "name": "McFlurry m&m's",
-    "category": "Desserts",
+    "category": "Postres",
     "price": 5500,
     "img": "/img/desserts/mc-flurry-mym.png"
   },
   {
     "id": 74,
     "name": "McFlurry Oreo",
-    "category": "Desserts",
+    "category": "Postres",
     "price": 4300,
     "img": "/img/desserts/mc-flurry-oreo.png"
   },
   {
     "id": 75,
     "name": "McFlurry KitKat",
-    "category": "Desserts",
+    "category": "Postres",
     "price": 4300,
     "img": "/img/desserts/mc-flurry-kit-kat.png"
   },
   {
     "id": 76,
     "name": "Cono Combinado",
-    "category": "Desserts",
+    "category": "Postres",
     "price": 1299,
     "img": "/img/desserts/cono-combinado.png"
   },
   {
     "id": 77,
     "name": "Cono de Vainilla",
-    "category": "Desserts",
+    "category": "Postres",
     "price": 1299,
     "img": "/img/desserts/cono-vainilla.png"
   },
   {
     "id": 78,
     "name": "Cono de Dulce de Leche",
-    "category": "Desserts",
+    "category": "Postres",
     "price": 1299,
     "img": "/img/desserts/cono-dulce-de-leche.png"
   },
   {
     "id": 79,
     "name": "Cono Oreo",
-    "category": "Desserts",
+    "category": "Postres",
     "price": 1800,
     "img": "/img/desserts/cono-oreo.png"
   },
   {
     "id": 80,
     "name": "Sundae de Chocolate",
-    "category": "Desserts",
+    "category": "Postres",
     "price": 3300,
     "img": "/img/desserts/sundae-chocolate.png"
   },
   {
     "id": 81,
-    "name": "Sundae Dulce de Leche",
-    "category": "Desserts",
-    "price": 3300,
-    "img": "/img/desserts/sundae-dulce-de-leche.png"
+    "name": "Sundae Apple Pie",
+    "category": "Postres",
+    "price": 8200,
+    "img": "/img/desserts/sundae-apple-pie.png"
   },
   {
     "id": 82,
     "name": "Sundae de Frutilla",
-    "category": "Desserts",
+    "category": "Postres",
     "price": 3300,
     "img": "/img/desserts/sundae-frutilla.png"
   },
   {
     "id": 83,
     "name": "Super Cono",
-    "category": "Desserts",
+    "category": "Postres",
     "price": 1700,
     "img": "/img/desserts/super-cono.png"
   },
   {
     "id": 84,
     "name": "Cono Relleno",
-    "category": "Desserts",
+    "category": "Postres",
     "price": 1800,
     "img": "/img/desserts/cono-relleno.png"
   },
   {
     "id": 85,
     "name": "Cono KitKat",
-    "category": "Desserts",
+    "category": "Postres",
     "price": 2000,
     "img": "/img/desserts/cono-kit-kat.png"
   },
   {
     "id": 86,
     "name": "Ensalada Caesar",
-    "category": "Salads",
+    "category": "Ensaladas",
     "price": 12600,
     "img": "/img/salads/ensalada-cesar-con-pollo-crispy.png"
   },
   {
     "id": 87,
     "name": "Coca-Cola",
-    "category": "Drinks",
+    "category": "Bebidas",
     "price": 3900,
     "img": "/img/drinks/coca-cola.png"
   },
   {
     "id": 88,
     "name": "Coca-Cola Zero",
-    "category": "Drinks",
+    "category": "Bebidas",
     "price": 3900,
     "img": "/img/drinks/coca-cola.png"
   },
   {
     "id": 89,
     "name": "Sprite",
-    "category": "Drinks",
+    "category": "Bebidas",
     "price": 3900,
     "img": "/img/drinks/sprite.png"
   },
   {
     "id": 90,
     "name": "Agua",
-    "category": "Drinks",
+    "category": "Bebidas",
     "price": 4200,
     "img": "/img/drinks/agua-sin-gas-500ml.png"
   },
   {
     "id": 91,
     "name": "Jugo de Naranja Cepita",
-    "category": "Drinks",
+    "category": "Bebidas",
     "price": 2600,
     "img": "/img/drinks/jugo-naranja-cepita.png"
   },
   {
     "id": 92,
     "name": "Jugo De Manzana",
-    "category": "Drinks",
+    "category": "Bebidas",
     "price": 2800,
     "img": "/img/drinks/jugo-de-manzana.png"
   },
   {
     "id": 93,
     "name": "Fanta",
-    "category": "Drinks",
+    "category": "Bebidas",
     "price": 3900,
     "img": "/img/drinks/fanta.png"
   }

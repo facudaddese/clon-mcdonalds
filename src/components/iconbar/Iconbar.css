@@ -1,0 +1,19 @@
+@media (max-width: 1024px) {
+  .ul {
+    max-width: 100vw;
+    gap: 40px;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 768px) {
+  .ul {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ul {
+    gap: 20px;
+  }
+}

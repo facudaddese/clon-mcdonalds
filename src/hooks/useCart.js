@@ -18,7 +18,7 @@ export const useCart = () => {
       return [...prev, { ...item, quantity: 1 }];
     });
 
-    toast.success(`${item.name} agregado al carrito`);
+    toast.success(`${item.name} agregado al carrito`, { duration: 1500 });
   };
 
   const increaseQuantity = (id) => {
@@ -41,6 +41,7 @@ export const useCart = () => {
     if (item.quantity - 1 === 0) {
       toast(`${item.name} eliminado del carrito`, {
         icon: "🗑️",
+        duration: 1500,
       });
     }
   };
@@ -49,6 +50,7 @@ export const useCart = () => {
     setCart((prev) => prev.filter((e) => e.id !== item.id));
     toast(`${item.name} eliminado del carrito`, {
       icon: "🗑️",
+      duration: 2000,
     });
   };
 

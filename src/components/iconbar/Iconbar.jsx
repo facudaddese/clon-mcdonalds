@@ -1,30 +1,38 @@
 import { Link } from "react-router-dom";
 import { productsIcons } from "../../assets/productsIcons";
-import './Navbar.css'
+import "./Iconbar.css";
 
 const categories = [
-  { img: productsIcons.mc_combo, name: "McCombos", url: "/mccombos" },
-  { img: productsIcons.burguers, name: "Hamburguesas", url: "/burguers" },
-  { img: productsIcons.happy_meal, name: "Cajita Feliz", url: "/cajita-feliz" },
+  { img: productsIcons.mc_combo, name: "McCombos", url: "/categoria/mccombos" },
+  {
+    img: productsIcons.burguers,
+    name: "Hamburguesas",
+    url: "/categoria/hamburguesas",
+  },
+  {
+    img: productsIcons.happy_meal,
+    name: "Cajita Feliz",
+    url: "/categoria/cajita-feliz",
+  },
   {
     img: productsIcons.chickens,
     name: "Pollo y McNuggets",
-    url: "/pollo-y-mcnuggets",
+    url: "/categoria/pollo-y-mcnuggets",
   },
   {
     img: productsIcons.fries_sides,
     name: "Para acompañar",
-    url: "/para-acompanar",
+    url: "/categoria/para-acompanar",
   },
-  { img: productsIcons.mc_shake, name: "McShake", url: "/mcshakes" },
-  { img: productsIcons.desserts, name: "Postres", url: "/postres" },
-  { img: productsIcons.salads, name: "Ensaladas", url: "/ensaladas" },
-  { img: productsIcons.drinks, name: "Bebidas", url: "/bebidas" },
+  { img: productsIcons.mc_shake, name: "McShake", url: "/categoria/mcshakes" },
+  { img: productsIcons.desserts, name: "Postres", url: "/categoria/postres" },
+  { img: productsIcons.salads, name: "Ensaladas", url: "/categoria/ensaladas" },
+  { img: productsIcons.drinks, name: "Bebidas", url: "/categoria/bebidas" },
 ];
 
-const Navbar = () => {
+const Iconbar = () => {
   return (
-    <ul className="grid py-1.5 grid-nav">
+    <ul className="flex justify-center max-w-screen items-center gap-15 py-1.5 overflow-x-auto scrollbar-thumb-gray-200 ul">
       {categories.map((item) => (
         <li
           key={item.url}
@@ -47,4 +55,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Iconbar;
