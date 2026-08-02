@@ -42,4 +42,5 @@ Clon del e-commerce de McDonald's desarrollado en React, con carrito de compras,
 ## Autor
 
 Desarrollado por **Facundo D'Addese** Estudiante de Licenciatura en Sistemas – Universidad Nacional de Lanús.
+
 [CV](https://drive.google.com/file/d/1dplrGFP7DhLXLQCuj2sA-66sAV0yER_g/view) | [facundo.daddese19@gmail.com](mailto:facundo.daddese19@gmail.com)
