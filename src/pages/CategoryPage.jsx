@@ -2,6 +2,19 @@ import { useContext } from "react";
 import { Context } from "../components/context/Context";
 import ProductSection from "../components/product_section/ProductSection";
 import { useParams } from "react-router-dom";
+import NotFound from "../components/not_found/NotFound";
+
+const validCategories = [
+  "mccombos",
+  "hamburguesas",
+  "cajita-feliz",
+  "pollo-y-mcnuggets",
+  "para-acompanar",
+  "mcshakes",
+  "postres",
+  "ensaladas",
+  "bebidas",
+];
 
 const CategoryPage = () => {
   const { category } = useParams();
@@ -31,6 +44,10 @@ const CategoryPage = () => {
         return categoy;
     }
   };
+
+  if (!validCategories.includes(category)) {
+    return <NotFound />;
+  }
 
   return (
     <div>

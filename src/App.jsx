@@ -3,6 +3,7 @@ import MainLayout from "./components/main_layout/MainLayout";
 import Provider from "./components/provider/Provider";
 import CategoryPage from "./pages/CategoryPage";
 import Home from "./pages/Home";
+import NotFound from "./components/not_found/NotFound";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="categoria/:category" element={<CategoryPage />} />
           </Route>
-          <Route path="*" element={<h2>Página no encontrada</h2>} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </Provider>
