@@ -13,10 +13,11 @@ export const usePromise = (
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    promise().then((data) => {
-      setProducts(data);
-      setLoading(false);
-    });
+    promise()
+      .then((data) => {
+        setProducts(data);
+        setLoading(false);
+      });
   }, [promise]);
 
   return { products, loading };
