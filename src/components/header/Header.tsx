@@ -3,6 +3,7 @@ import mcLogo from "/img/mcdonalds.svg";
 import { Link } from "react-router-dom";
 import Cart from "../cart/Cart";
 import { useState } from "react";
+import { HeaderProps } from "../../types/Product";
 
 const Header = ({
   cart,
@@ -10,7 +11,7 @@ const Header = ({
   increaseQuantity,
   decrementQuantity,
   emptyCart,
-}) => {
+}: HeaderProps) => {
   const [activeCart, setActiveCart] = useState(false);
   const isEmpty = () => cart.length === 0;
 

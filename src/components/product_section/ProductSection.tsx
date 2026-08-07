@@ -1,8 +1,23 @@
 import { Link } from "react-router-dom";
 import Card from "../card/Card";
 import "./ProductSection.css";
+import { Product } from "../../types/Product";
 
-const ProductSection = ({ title, category, addProducts, products, show }) => {
+interface ProductSectionProps {
+  title: string;
+  category: string;
+  addProducts: (item: Product) => void;
+  products: Product[];
+  show: boolean;
+}
+
+const ProductSection = ({
+  title,
+  category,
+  addProducts,
+  products,
+  show,
+}: ProductSectionProps) => {
   const filter = products.filter(
     (item) => item.category.toLowerCase() === category.toLowerCase(),
   );

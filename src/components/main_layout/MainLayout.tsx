@@ -1,8 +1,7 @@
 import Nav from "../nav/Nav";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
-import { useContext } from "react";
-import { Context } from "../context/Context";
+import { useAppContext } from "../../hooks/useAppContext";
 import { BarLoader } from "react-spinners";
 import { Outlet } from "react-router-dom";
 
@@ -14,15 +13,15 @@ const MainLayout = () => {
     decrementQuantity,
     deleteProducts,
     emptyCart,
-  } = useContext(Context);
+  } = useAppContext();
 
   return (
     <>
       <Header
         cart={cart}
-        deleteProducts={deleteProducts}
         increaseQuantity={increaseQuantity}
         decrementQuantity={decrementQuantity}
+        deleteProducts={deleteProducts}
         emptyCart={emptyCart}
       />
       <Nav />

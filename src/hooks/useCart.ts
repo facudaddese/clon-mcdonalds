@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 import toast from "react-hot-toast";
+import { CartItem, Id, Product } from "../types/Product";
 
 export const useCart = () => {
-  const [cart, setCart] = useState(() =>
-    localStorage.getItem("cart")
-      ? JSON.parse(localStorage.getItem("cart"))
-      : [],
-  );
+  const [cart, setCart] = useState<CartItem[]>(() => {
+    const stored = localStorage.getItem("cart");
+    return stored ? (JSON.parse(stored) as CartItem[]) : [];
+  });
 
-  const addProducts = (item) => {
+  const addProducts = (item: Product) => {
     setCart((prev) => {
       if (prev.find((e) => e.id === item.id)) {
         return prev.map((p) =>
@@ -21,7 +21,7 @@ export const useCart = () => {
     toast.success(`${item.name} agregado al carrito`, { duration: 1500 });
   };
 
-  const increaseQuantity = (id) => {
+  const increaseQuantity = ({ id }: Id) => {
     setCart((prev) => {
       return prev.map((el) =>
         el.id === id ? { ...el, quantity: el.quantity + 1 } : el,
@@ -29,7 +29,7 @@ export const useCart = () => {
     });
   };
 
-  const decrementQuantity = (item) => {
+  const decrementQuantity = (item: CartItem) => {
     setCart((prev) => {
       return prev
         .map((el) =>
@@ -46,7 +46,7 @@ export const useCart = () => {
     }
   };
 
-  const deleteProducts = (item) => {
+  const deleteProducts = (item: CartItem) => {
     setCart((prev) => prev.filter((e) => e.id !== item.id));
     toast(`${item.name} eliminado del carrito`, {
       icon: "🗑️",

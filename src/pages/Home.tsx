@@ -1,9 +1,8 @@
-import { useContext } from "react";
-import { Context } from "../components/context/Context";
 import ProductSection from "../components/product_section/ProductSection";
+import { useAppContext } from "../hooks/useAppContext";
 
 const Home = () => {
-  const { addProducts, products } = useContext(Context);
+  const { addProducts, products } = useAppContext();
 
   return (
     <main>

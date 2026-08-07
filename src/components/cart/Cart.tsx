@@ -1,3 +1,5 @@
+import { CartProps } from "../../types/Product";
+
 const Cart = ({
   cart,
   activeCart,
@@ -7,7 +9,7 @@ const Cart = ({
   decrementQuantity,
   isEmpty,
   emptyCart,
-}) => {
+}: CartProps) => {
   return (
     <div
       className={`fixed top-20 right-0 bg-gray-50 transition-transform duration-300 ease-in-out rounded-l-[20px] max-w-100 overflow-hidden z-2000 p-1 ${
@@ -50,7 +52,9 @@ const Cart = ({
             <div className="flex gap-4 items-center">
               <img src={item.img} alt={item.name} width={95} />
               <div className="flex flex-col gap-4">
-                <h3 className="text-(length:--text-product-name)">{item.name}</h3>
+                <h3 className="text-(length:--text-product-name)">
+                  {item.name}
+                </h3>
                 <div className="flex justify-between items-center gap-4 bg-yellow-400 border border-amber-500 w-22 h-7 rounded-[30px]">
                   <button
                     className="pl-2 cursor-pointer rounded-l-[30px] hover:font-extrabold hover:bg-yellow-300 text-[17px]"
@@ -61,7 +65,7 @@ const Cart = ({
                   <strong>{item.quantity}</strong>
                   <button
                     className="pr-2 cursor-pointer rounded-r-[30px] hover:font-extrabold hover:bg-yellow-300 text-[17px]"
-                    onClick={() => increaseQuantity(item.id)}
+                    onClick={() => increaseQuantity({ id: item.id })}
                   >
                     +
                   </button>
@@ -75,7 +79,9 @@ const Cart = ({
               >
                 delete
               </span>
-              <strong className="text-(length:--text-price)">${item.price.toLocaleString("es-AR")}</strong>
+              <strong className="text-(length:--text-price)">
+                ${item.price.toLocaleString("es-AR")}
+              </strong>
             </div>
           </div>
         ))}

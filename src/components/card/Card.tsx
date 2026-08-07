@@ -1,4 +1,11 @@
-const Card = ({ item, addProducts }) => {
+import { Product } from "../../types/Product";
+
+interface CardProps {
+  item: Product;
+  addProducts: (item: Product) => void;
+}
+
+const Card = ({ item, addProducts }: CardProps) => {
   const { img, name, price } = item;
 
   return (
@@ -8,8 +15,12 @@ const Card = ({ item, addProducts }) => {
           <img src={img} alt={name} className="w-full px-1" />
         </div>
         <div className="flex flex-col justify-center h-full mx-5 gap-2 font-bold">
-          <h3 className="text-(length:--text-product-name) font-medium">{name}</h3>
-          <strong className="text-(length:--text-price)">$ {price.toLocaleString("es-AR")}</strong>
+          <h3 className="text-(length:--text-product-name) font-medium">
+            {name}
+          </h3>
+          <strong className="text-(length:--text-price)">
+            $ {price.toLocaleString("es-AR")}
+          </strong>
         </div>
         <div className="flex justify-center items-end p-3 ">
           <button

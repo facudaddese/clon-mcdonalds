@@ -1,10 +1,10 @@
 import { usePromise } from "../../hooks/usePromise";
 import { getProducts } from "../../service/getProducts";
-import { Context } from "../context/Context";
+import { Context, ContextI } from "../context/Context";
 import data from "../../data/menu.json";
 import { useCart } from "../../hooks/useCart";
 
-const Provider = ({ children }) => {
+const Provider = ({ children }: { children: React.ReactNode }) => {
   const { products, loading } = usePromise(() => getProducts(data));
   const {
     cart,
@@ -15,22 +15,18 @@ const Provider = ({ children }) => {
     emptyCart,
   } = useCart();
 
-  return (
-    <Context.Provider
-      value={{
-        products,
-        loading,
-        cart,
-        addProducts,
-        increaseQuantity,
-        decrementQuantity,
-        deleteProducts,
-        emptyCart,
-      }}
-    >
-      {children}
-    </Context.Provider>
-  );
+  const value: ContextI = {
+    products,
+    loading,
+    cart,
+    addProducts,
+    increaseQuantity,
+    decrementQuantity,
+    deleteProducts,
+    emptyCart,
+  };
+
+  return <Context.Provider value={value}>{children}</Context.Provider>;
 };
 
 export default Provider;

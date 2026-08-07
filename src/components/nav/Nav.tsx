@@ -3,7 +3,15 @@ import Iconbar from "../iconbar/Iconbar";
 import "./Nav.css";
 import { useLocation } from "react-router-dom";
 
-const thresholds = {
+interface Threshold {
+  desktop?: number;
+  w1024: number;
+  w768: number;
+  w600: number;
+  w425: number;
+}
+
+const thresholds: Record<string, Threshold> = {
   "/": { desktop: 1400, w1024: 2700, w768: 3800, w600: 5000, w425: 9800 },
   mccombos: { desktop: 1000, w1024: 2800, w768: 3550, w600: 5200, w425: 10300 },
   hamburguesas: {
@@ -23,7 +31,7 @@ const thresholds = {
 };
 
 const Nav = () => {
-  const [isSticky, setIsSticky] = useState(true);
+  const [isSticky, setIsSticky] = useState<boolean>(true);
   const location = useLocation();
 
   useEffect(() => {
@@ -31,27 +39,28 @@ const Nav = () => {
   }, [location.pathname]);
 
   useEffect(() => {
-    const getKey = () => {
+    const getKey = (): string => {
       if (location.pathname === "/") return "/";
-      return location.pathname.split("/").pop();
+      return location.pathname.split("/").pop() ?? "/";
     };
 
-    const getScroll = () => {
-      if (!thresholds[getKey()]) return Infinity;
+    const getScroll = (): number => {
+      const config = thresholds[getKey()];
+      if (!config) return Infinity;
 
-      if (window.innerWidth < 425) return thresholds[getKey()].w425;
-      if (window.innerWidth < 600) return thresholds[getKey()].w600;
-      if (window.innerWidth < 768) return thresholds[getKey()].w768;
-      if (window.innerWidth < 1024) return thresholds[getKey()].w1024;
+      if (window.innerWidth < 425) return config.w425;
+      if (window.innerWidth < 600) return config.w600;
+      if (window.innerWidth < 768) return config.w768;
+      if (window.innerWidth < 1024) return config.w1024;
 
-      return thresholds[getKey()].desktop ?? Infinity;
+      return config.desktop ?? Infinity;
     };
 
     const handleScroll = () => {
       setIsSticky(window.scrollY < getScroll());
     };
 
-    handleScroll(); // corre una vez al montar/cambiar de página
+    handleScroll();
     window.addEventListener("scroll", handleScroll);
     window.addEventListener("resize", handleScroll);
     return () => {

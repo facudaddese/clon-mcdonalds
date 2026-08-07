@@ -1,8 +1,7 @@
-import { useContext } from "react";
-import { Context } from "../components/context/Context";
 import ProductSection from "../components/product_section/ProductSection";
 import { useParams } from "react-router-dom";
-import NotFound from "../components/not_found/NotFound";
+import NotFound from "./NotFound.tsx";
+import { useAppContext } from "../hooks/useAppContext.ts";
 
 const validCategories = [
   "mccombos",
@@ -17,10 +16,10 @@ const validCategories = [
 ];
 
 const CategoryPage = () => {
-  const { category } = useParams();
-  const { addProducts, products } = useContext(Context);
+  const { category } = useParams<{ category: string }>();
+  const { addProducts, products } = useAppContext();
 
-  const title = (categoy) => {
+  const title = (category: string) => {
     switch (category) {
       case "mccombos":
         return "McCombos";
@@ -41,11 +40,11 @@ const CategoryPage = () => {
       case "bebidas":
         return "Bebidas";
       default:
-        return categoy;
+        return category;
     }
   };
 
-  if (!validCategories.includes(category)) {
+  if (!category || !validCategories.includes(category)) {
     return <NotFound />;
   }
 
