@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import { CartItem, Id, Product } from "../../types/Product";
+import { CartItem, Id, Product } from "../types/Product";
 
 export interface ContextI {
   products: Product[];

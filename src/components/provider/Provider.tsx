@@ -1,8 +1,8 @@
 import { usePromise } from "../../hooks/usePromise";
 import { getProducts } from "../../service/getProducts";
-import { Context, ContextI } from "../context/Context";
 import data from "../../data/menu.json";
 import { useCart } from "../../hooks/useCart";
+import { Context, ContextI } from "../../context/Context";
 
 const Provider = ({ children }: { children: React.ReactNode }) => {
   const { products, loading } = usePromise(() => getProducts(data));
