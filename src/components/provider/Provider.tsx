@@ -2,7 +2,7 @@ import { usePromise } from "../../hooks/usePromise";
 import { getProducts } from "../../service/getProducts";
 import data from "../../data/menu.json";
 import { useCart } from "../../hooks/useCart";
-import { Context, ContextI } from "../../context/Context";
+import { Context, ContextInterface } from "../../context/Context";
 
 const Provider = ({ children }: { children: React.ReactNode }) => {
   const { products, loading } = usePromise(() => getProducts(data));
@@ -15,7 +15,7 @@ const Provider = ({ children }: { children: React.ReactNode }) => {
     emptyCart,
   } = useCart();
 
-  const value: ContextI = {
+  const value: ContextInterface = {
     products,
     loading,
     cart,

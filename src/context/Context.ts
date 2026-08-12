@@ -1,7 +1,7 @@
 import { createContext } from "react";
 import { CartItem, Id, Product } from "../types/Product";
 
-export interface ContextI {
+export interface ContextInterface {
   products: Product[];
   loading: boolean;
   cart: CartItem[];
@@ -12,4 +12,4 @@ export interface ContextI {
   emptyCart: () => void;
 }
 
-export const Context = createContext<ContextI | undefined>(undefined);
+export const Context = createContext<ContextInterface | undefined>(undefined);

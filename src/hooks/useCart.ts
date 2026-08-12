@@ -1,43 +1,24 @@
-import { useState, useEffect } from "react";
+import { useEffect, useReducer } from "react";
 import toast from "react-hot-toast";
 import { CartItem, Id, Product } from "../types/Product";
+import { cartReducer } from "../reducers/cartReducer";
 
 export const useCart = () => {
-  const [cart, setCart] = useState<CartItem[]>(() => {
+  const [cart, dispatch] = useReducer(cartReducer, [], () => {
     const stored = localStorage.getItem("cart");
     return stored ? (JSON.parse(stored) as CartItem[]) : [];
   });
 
   const addProducts = (item: Product) => {
-    setCart((prev) => {
-      if (prev.find((e) => e.id === item.id)) {
-        return prev.map((p) =>
-          p.id === item.id ? { ...p, quantity: p.quantity + 1 } : p,
-        );
-      }
-      return [...prev, { ...item, quantity: 1 }];
-    });
-
+    dispatch({ type: "add", payload: { item } });
     toast.success(`${item.name} agregado al carrito`, { duration: 1500 });
   };
 
-  const increaseQuantity = ({ id }: Id) => {
-    setCart((prev) => {
-      return prev.map((el) =>
-        el.id === id ? { ...el, quantity: el.quantity + 1 } : el,
-      );
-    });
-  };
+  const increaseQuantity = (id: Id) =>
+    dispatch({ type: "increase", payload: { id } });
 
   const decrementQuantity = (item: CartItem) => {
-    setCart((prev) => {
-      return prev
-        .map((el) =>
-          el.id === item.id ? { ...el, quantity: el.quantity - 1 } : el,
-        )
-        .filter((el) => el.quantity > 0);
-    });
-
+    dispatch({ type: "decrement", payload: { item } });
     if (item.quantity - 1 === 0) {
       toast(`${item.name} eliminado del carrito`, {
         icon: "🗑️",
@@ -47,14 +28,14 @@ export const useCart = () => {
   };
 
   const deleteProducts = (item: CartItem) => {
-    setCart((prev) => prev.filter((e) => e.id !== item.id));
+    dispatch({ type: "delete", payload: { item } });
     toast(`${item.name} eliminado del carrito`, {
       icon: "🗑️",
       duration: 2000,
     });
   };
 
-  const emptyCart = () => setCart([]);
+  const emptyCart = () => dispatch({ type: "empty" });
 
   useEffect(() => {
     localStorage.setItem("cart", JSON.stringify(cart));
