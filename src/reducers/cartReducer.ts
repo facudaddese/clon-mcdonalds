@@ -1,22 +1,10 @@
 import type { CartItem, Product, Id } from "../types/Product";
 
 export type CartActions =
-  | {
-      type: "add";
-      payload: { item: Product };
-    }
-  | {
-      type: "increase";
-      payload: { id: Id };
-    }
-  | {
-      type: "decrement";
-      payload: { item: CartItem };
-    }
-  | {
-      type: "delete";
-      payload: { item: CartItem };
-    }
+  | { type: "add"; payload: { item: Product } }
+  | { type: "increase"; payload: { id: Id } }
+  | { type: "decrement"; payload: { item: CartItem } }
+  | { type: "delete"; payload: { item: CartItem } }
   | { type: "empty" };
 
 export const cartReducer = (
